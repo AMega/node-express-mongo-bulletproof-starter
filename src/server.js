@@ -1,8 +1,8 @@
 
-
+// Load Config
+const config = require('./config');
 
 // Loaders
-const config = require('./loaders/config');
 const Logger = require('./loaders/logger');
 const EE = require('./loaders/events');
 
@@ -17,9 +17,6 @@ const app = require('./loaders/express');
 app.listen(config.port, () => {
     Logger.info(`------------------------------------------`);
     Logger.info(`App listening on ${config.appHostname}:${config.port}`);
-    app.emit('appStarted');
-    
-    EE.emit('ExampleEvent');
 });
 
 

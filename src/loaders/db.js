@@ -1,5 +1,5 @@
 const Mongoose = require('mongoose');
-const config = require('./config');
+const config = require('../config');
 const Logger = require('./logger');
 
 

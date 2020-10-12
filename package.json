@@ -1,13 +1,18 @@
 {
-  "name": "starter-express-mongo",
+  "name": "node-express-mongo-bulletproof-starter",
   "version": "1.0.0",
   "description": "Starter app using express and mongo",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon src/server"
+    "dev": "nodemon src/server",
+    "start": "node src/server"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "AMega",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiq/bulletproof-nodejs.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",

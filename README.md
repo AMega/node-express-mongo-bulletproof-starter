@@ -2,7 +2,7 @@
 
 Starter app for your project.
 
-Using Bulletproof Architecture
+Using Bulletproof Architecture (see credits below)
 
 # Usage
 Node version used: 14
